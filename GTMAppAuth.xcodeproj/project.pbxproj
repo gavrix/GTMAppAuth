@@ -30,7 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A52E265F20A9F70B0065F8B3 /* GTMAppAuth_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMAppAuth_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52E265F20A9F70B0065F8B3 /* GTMAppAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMAppAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58A882D20AA03980043279D /* GTMSessionFetcherIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcherIOS.framework; path = Carthage/Build/iOS/GTMSessionFetcherIOS.framework; sourceTree = SOURCE_ROOT; };
 		A58A883D20AA0E890043279D /* AppAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppAuth.framework; path = Carthage/Build/iOS/AppAuth.framework; sourceTree = SOURCE_ROOT; };
 		A58A884220AA12030043279D /* GTMKeychain_macOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMKeychain_macOS.m; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		A52E266020A9F70B0065F8B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A52E265F20A9F70B0065F8B3 /* GTMAppAuth_iOS.framework */,
+				A52E265F20A9F70B0065F8B3 /* GTMAppAuth.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,7 +180,7 @@
 			);
 			name = "GTMAppAuth-iOS";
 			productName = GTMSessionFetcher;
-			productReference = A52E265F20A9F70B0065F8B3 /* GTMAppAuth_iOS.framework */;
+			productReference = A52E265F20A9F70B0065F8B3 /* GTMAppAuth.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -383,7 +383,7 @@
 				);
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GTMSessionFetcher;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = GTMAppAuth;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -412,7 +412,7 @@
 				);
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GTMSessionFetcher;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = GTMAppAuth;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
