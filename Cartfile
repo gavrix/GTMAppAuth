@@ -1,2 +1,2 @@
 github "google/gtm-session-fetcher" ~> 1.1.15
-github "gavrix/AppAuth-iOS" ~> 0.92.1
+github "gavrix/AppAuth-iOS" ~> 0.92.2
