@@ -17,7 +17,7 @@
  */
 
 #ifndef GTMAPPAUTH_USER_IMPORTS
-#import <GTMSessionFetcher/GTMSessionFetcher.h>
+#import <GTMSessionFetcheriOS/GTMSessionFetcher.h>
 #else // GTMAPPAUTH_USER_IMPORTS
 #import "GTMSessionFetcher.h"
 #endif // GTMAPPAUTH_USER_IMPORTS

@@ -18,7 +18,7 @@
 
 #import "GTMOAuth2KeychainCompatibility.h"
 
-#import "AppAuth.h"
+#import <AppAuth/AppAuth.h>
 #import "GTMKeychain.h"
 
 // standard OAuth keys
